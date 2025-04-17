@@ -1,0 +1,260 @@
+@import "../../bootstrap/scss/functions";
+@import "../../bootstrap/scss/variables";
+@import "../../bootstrap/scss/variables-dark";
+@import "../../bootstrap/scss/maps";
+@import "../../bootstrap/scss/mixins";
+@import "../../bootstrap/scss/utilities";
+
+// COLOR
+// COLOR-RED
+$colors: map-merge(
+  $colors,
+  (
+    redFifty: #fef2f2,
+    redOneHundred: #fee2e2,
+    redTwoHundred: #fecaca,
+    redThreeHundred: #fca5a5,
+    redFourHundred: #f87171,
+    redFiveHundred: #ef4444,
+    redSixHundred: #dc2626,
+    redSevenHundred: #b91c1c,
+    redEightHundred: #991b1b,
+    redNineHundred: #7f1d1d,
+    redNineFifty: #450a0a,
+  )
+);
+
+// COLOR BLUE
+
+$colors: map-merge(
+  $colors,
+  (
+    blueFifty: #eff6ff,
+    blueOneHundred: #dbeafe,
+    blueTwoHundred: #bfdbfe,
+    blueThreeHundred: #93c5fd,
+    blueFourHundred: #60a5fa,
+    blueFiveHundred: #3b82f6,
+    blueSixHundred: #2563eb,
+    blueSevenHundred: #1d4ed8,
+    blueEightHundred: #1e40af,
+    blueNineHundred: #1e3a8a,
+    blueNineFifty: #172554,
+  )
+);
+
+// COLOR GRAY
+
+$colors: map-merge(
+  $colors,
+  (
+    grayFifty: #f9fafb,
+    grayOneHundred: #f3f4f6,
+    grayTwoHundred: #e5e7eb,
+    grayThreeHundred: #d1d5db,
+    grayFourHundred: #9ca3af,
+    grayFiveHundred: #6b7280,
+    graySixHundred: #4b5563,
+    graySevenHundred: #374151,
+    grayEightHundred: #1f2937,
+    grayNineHundred: #111827,
+    grayNineFifty: #030712,
+  )
+);
+
+// COLOR GREEN
+
+$colors: map-merge(
+  $colors,
+  (
+    greenFifty: #f0fdf4,
+    greenOneHundred: #dcfce7,
+    greenTwoHundred: #bbf7d0,
+    greenThreeHundred: #86efac,
+    greenFourHundred: #4ade80,
+    greenFiveHundred: #22c55e,
+    greenSixHundred: #16a34a,
+    greenSevenHundred: #15803d,
+    greenEightHundred: #166534,
+    greenNineHundred: #14532d,
+    greenNineFifty: #052e16,
+  )
+);
+
+// COLOR SLATE
+
+$colors: map-merge(
+  $colors,
+  (
+    slateFifty: #f8fafc,
+    slateOneHundred: #f1f5f9,
+    slateTwoHundred: #e2e8f0,
+    slateThreeHundred: #cbd5e1,
+    slateFourHundred: #94a3b8,
+    slateFiveHundred: #64748b,
+    slateSixHundred: #475569,
+    slateSevenHundred: #334155,
+    slateEightHundred: #1e293b,
+    slateNineHundred: #0f172a,
+    slateNineFifty: #020617,
+  )
+);
+
+// COLOR NIKE
+
+$nikeColors: (
+  nikeBlack: #111111,
+  nikeWhite: #ffffff,
+  nikeVolt: #ceff00,
+  nikeHyperPink: #ff3161,
+  nikeBlue: #0046ad,
+  nikeUniversityRed: #ba0c2f,
+  nikeOrange: #f76300,
+  nikeGrey: #7e7e7e,
+);
+
+$colors: map-merge($colors, $nikeColors);
+// COLOR ROSE
+$autumnColors: (
+  dustyRose: #a87676,
+  warmRose: #ca8787,
+  paleRose: #e1acac,
+  lightRose: #ffd0d0,
+);
+
+$colors: map-merge($colors, $autumnColors);
+
+// COLOR VINTAGE VALOR
+$vintageValor: (
+  darkGarnet: #780000,
+  engineRed: #c1121f,
+  papayaWhip: #fdf0d5,
+  prussianBlue: #003049,
+  steelBlue: #669bbc,
+);
+
+$colors: map-merge($colors, $vintageValor);
+
+// COLOR MODERN NATURE
+
+$modernNature: (
+  ivoryMist: #fffcf2,
+  stoneBeige: #ccc5b9,
+  ashBrown: #403d39,
+  charcoalEarth: #252422,
+  burntOrange: #eb5e28,
+);
+
+// @each $key, $value in $modernNature {
+//   .#{$key} {
+//     color: $value;
+//   }
+// }
+
+$colors: map-merge($colors, $modernNature);
+
+// FONT-SIZE
+$font-sizes: (
+  1: 2.5rem,
+  2: 2rem,
+  3: 1.6rem,
+  4: 1.3rem,
+  5: 1.1rem,
+  6: 1rem,
+  7: 0.8rem,
+  8: 0.75rem,
+  9: 0.6rem,
+  10: 0.5rem,
+);
+
+@each $key, $value in $font-sizes {
+  .fontSize#{$key} {
+    font-size: $value;
+  }
+}
+
+// PADDING
+
+$paddingCustom: (
+  padding1: 1rem,
+  padding2: 1.5rem,
+  padding3: 2rem,
+  padding4: 2.5rem,
+  padding5: 3rem,
+  padding6: 3.5rem,
+  padding7: 4rem,
+  padding8: 4.5rem,
+  padding9: 5rem,
+  padding10: 5.5rem,
+);
+
+$padding-sizes: $paddingCustom;
+
+@each $key, $value in $padding-sizes {
+  .#{$key} {
+    padding: $value;
+  }
+}
+
+// MARGIN
+
+$margin-custom: (
+  margin1: 1rem,
+  margin2: 1.5rem,
+  margin3: 2rem,
+  margin4: 2.5rem,
+  margin5: 3rem,
+  margin6: 3.5rem,
+  margin7: 4rem,
+  margin8: 4.5rem,
+  margin9: 5rem,
+  margin10: 5.5rem,
+);
+
+$margin-sizes: $margin-custom;
+
+@each $key, $value in $margin-sizes {
+  .#{$key} {
+    margin: $value;
+  }
+}
+
+// Layout & components
+@import "../../bootstrap/scss/root";
+@import "../../bootstrap/scss/reboot";
+@import "../../bootstrap/scss/type";
+@import "../../bootstrap/scss/images";
+@import "../../bootstrap/scss/containers";
+@import "../../bootstrap/scss/grid";
+@import "../../bootstrap/scss/tables";
+@import "../../bootstrap/scss/forms";
+@import "../../bootstrap/scss/buttons";
+@import "../../bootstrap/scss/transitions";
+@import "../../bootstrap/scss/dropdown";
+@import "../../bootstrap/scss/button-group";
+@import "../../bootstrap/scss/nav";
+@import "../../bootstrap/scss/navbar";
+@import "../../bootstrap/scss/card";
+@import "../../bootstrap/scss/accordion";
+@import "../../bootstrap/scss/breadcrumb";
+@import "../../bootstrap/scss/pagination";
+@import "../../bootstrap/scss/badge";
+@import "../../bootstrap/scss/alert";
+@import "../../bootstrap/scss/progress";
+@import "../../bootstrap/scss/list-group";
+@import "../../bootstrap/scss/close";
+@import "../../bootstrap/scss/toasts";
+@import "../../bootstrap/scss/modal";
+@import "../../bootstrap/scss/tooltip";
+@import "../../bootstrap/scss/popover";
+@import "../../bootstrap/scss/carousel";
+@import "../../bootstrap/scss/spinners";
+@import "../../bootstrap/scss/offcanvas";
+@import "../../bootstrap/scss/placeholders";
+
+// Helpers
+@import "../../bootstrap/scss/helpers";
+
+// Utilities
+@import "../../bootstrap/scss/utilities/api";
+// scss-docs-end import-stack
