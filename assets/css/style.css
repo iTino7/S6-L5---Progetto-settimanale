@@ -124,11 +124,11 @@
 }
 
 .bgGreyNetflix {
-  background-color: #564d4d;
+  background-color: #ebebeb;
 }
 
 .textGreyNetflix {
-  color: #564d4d !important;
+  color: #ebebeb !important;
 }
 
 .bgDarkRed {
@@ -12470,6 +12470,12 @@ textarea.form-control-lg {
   cursor: pointer;
 }
 
+.nav-item a span:hover {
+  color: #fff;
+  transition: 1s;
+  cursor: pointer;
+}
+
 .dropdown-toggle::after {
   color: white;
 }
@@ -12484,7 +12490,7 @@ textarea.form-control-lg {
 
 .containerBorder {
   border: 1px solid gray;
-  padding: 10px 20px;
+  padding: 4px 20px;
 }
 .containerBorder .bi-grid {
   color: white;
