@@ -12512,3 +12512,7 @@ footer .row .col-3 p {
   font-size: 12px;
   color: gray;
 }
+
+.gradientCustom {
+  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgba(77, 77, 77, 0) 100%);
+}
