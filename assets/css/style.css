@@ -1,4 +1,144 @@
 @charset "UTF-8";
+.blue {
+  background-color: #0d6efd;
+}
+
+.indigo {
+  background-color: #6610f2;
+}
+
+.purple {
+  background-color: #6f42c1;
+}
+
+.pink {
+  background-color: #d63384;
+}
+
+.red {
+  background-color: #dc3545;
+}
+
+.orange {
+  background-color: #fd7e14;
+}
+
+.yellow {
+  background-color: #ffc107;
+}
+
+.green {
+  background-color: #198754;
+}
+
+.teal {
+  background-color: #20c997;
+}
+
+.cyan {
+  background-color: #0dcaf0;
+}
+
+.black {
+  background-color: #000;
+}
+
+.white {
+  background-color: #fff;
+}
+
+.gray {
+  background-color: #6c757d;
+}
+
+.gray-dark {
+  background-color: #343a40;
+}
+
+.redFifty {
+  background-color: #fef2f2;
+}
+
+.redOneHundred {
+  background-color: #fee2e2;
+}
+
+.redTwoHundred {
+  background-color: #fecaca;
+}
+
+.redThreeHundred {
+  background-color: #fca5a5;
+}
+
+.redFourHundred {
+  background-color: #f87171;
+}
+
+.redFiveHundred {
+  background-color: #ef4444;
+}
+
+.redSixHundred {
+  background-color: #dc2626;
+}
+
+.redSevenHundred {
+  background-color: #b91c1c;
+}
+
+.redEightHundred {
+  background-color: #991b1b;
+}
+
+.redNineHundred {
+  background-color: #7f1d1d;
+}
+
+.redNineFifty {
+  background-color: #450a0a;
+}
+
+.bgBlackDark {
+  background-color: #141414;
+}
+
+.textBlackDark {
+  color: #141414 !important;
+}
+
+.bgRedNetflix {
+  background-color: #db0000;
+}
+
+.textRedNetflix {
+  color: #db0000 !important;
+}
+
+.bgWhiteNetflix {
+  background-color: #fff;
+}
+
+.textWhiteNetflix {
+  color: #fff !important;
+}
+
+.bgGreyNetflix {
+  background-color: #564d4d;
+}
+
+.textGreyNetflix {
+  color: #564d4d !important;
+}
+
+.bgDarkRed {
+  background-color: #831010;
+}
+
+.textDarkRed {
+  color: #831010 !important;
+}
+
 .fontSize1 {
   font-size: 2.5rem;
 }
@@ -83,40 +223,200 @@
   margin: 1rem;
 }
 
+.margin1Left {
+  margin-left: 1rem;
+}
+
+.margin1Right {
+  margin-right: 1rem;
+}
+
+.margin1Top {
+  margin-top: 1rem;
+}
+
+.margin1Bottom {
+  margin-bottom: 1rem;
+}
+
 .margin2 {
   margin: 1.5rem;
+}
+
+.margin2Left {
+  margin-left: 1.5rem;
+}
+
+.margin2Right {
+  margin-right: 1.5rem;
+}
+
+.margin2Top {
+  margin-top: 1.5rem;
+}
+
+.margin2Bottom {
+  margin-bottom: 1.5rem;
 }
 
 .margin3 {
   margin: 2rem;
 }
 
+.margin3Left {
+  margin-left: 2rem;
+}
+
+.margin3Right {
+  margin-right: 2rem;
+}
+
+.margin3Top {
+  margin-top: 2rem;
+}
+
+.margin3Bottom {
+  margin-bottom: 2rem;
+}
+
 .margin4 {
   margin: 2.5rem;
+}
+
+.margin4Left {
+  margin-left: 2.5rem;
+}
+
+.margin4Right {
+  margin-right: 2.5rem;
+}
+
+.margin4Top {
+  margin-top: 2.5rem;
+}
+
+.margin4Bottom {
+  margin-bottom: 2.5rem;
 }
 
 .margin5 {
   margin: 3rem;
 }
 
+.margin5Left {
+  margin-left: 3rem;
+}
+
+.margin5Right {
+  margin-right: 3rem;
+}
+
+.margin5Top {
+  margin-top: 3rem;
+}
+
+.margin5Bottom {
+  margin-bottom: 3rem;
+}
+
 .margin6 {
   margin: 3.5rem;
+}
+
+.margin6Left {
+  margin-left: 3.5rem;
+}
+
+.margin6Right {
+  margin-right: 3.5rem;
+}
+
+.margin6Top {
+  margin-top: 3.5rem;
+}
+
+.margin6Bottom {
+  margin-bottom: 3.5rem;
 }
 
 .margin7 {
   margin: 4rem;
 }
 
+.margin7Left {
+  margin-left: 4rem;
+}
+
+.margin7Right {
+  margin-right: 4rem;
+}
+
+.margin7Top {
+  margin-top: 4rem;
+}
+
+.margin7Bottom {
+  margin-bottom: 4rem;
+}
+
 .margin8 {
   margin: 4.5rem;
+}
+
+.margin8Left {
+  margin-left: 4.5rem;
+}
+
+.margin8Right {
+  margin-right: 4.5rem;
+}
+
+.margin8Top {
+  margin-top: 4.5rem;
+}
+
+.margin8Bottom {
+  margin-bottom: 4.5rem;
 }
 
 .margin9 {
   margin: 5rem;
 }
 
+.margin9Left {
+  margin-left: 5rem;
+}
+
+.margin9Right {
+  margin-right: 5rem;
+}
+
+.margin9Top {
+  margin-top: 5rem;
+}
+
+.margin9Bottom {
+  margin-bottom: 5rem;
+}
+
 .margin10 {
   margin: 5.5rem;
+}
+
+.margin10Left {
+  margin-left: 5.5rem;
+}
+
+.margin10Right {
+  margin-right: 5.5rem;
+}
+
+.margin10Top {
+  margin-top: 5.5rem;
+}
+
+.margin10Bottom {
+  margin-bottom: 5.5rem;
 }
 
 :root,
@@ -190,14 +490,14 @@
   --bs-slateEightHundred: #1e293b;
   --bs-slateNineHundred: #0f172a;
   --bs-slateNineFifty: #020617;
-  --bs-nikeBlack: #111111;
-  --bs-nikeWhite: #ffffff;
-  --bs-nikeVolt: #ceff00;
-  --bs-nikeHyperPink: #ff3161;
-  --bs-nikeBlue: #0046ad;
-  --bs-nikeUniversityRed: #ba0c2f;
-  --bs-nikeOrange: #f76300;
-  --bs-nikeGrey: #7e7e7e;
+  --bs-NikeBlack: #111111;
+  --bs-NikeWhite: #ffffff;
+  --bs-NikeVolt: #ceff00;
+  --bs-NikeHyperPink: #ff3161;
+  --bs-NikeBlue: #0046ad;
+  --bs-NikeUniversityRed: #ba0c2f;
+  --bs-NikeOrange: #f76300;
+  --bs-NikeGrey: #7e7e7e;
   --bs-dustyRose: #a87676;
   --bs-warmRose: #ca8787;
   --bs-paleRose: #e1acac;
@@ -12162,6 +12462,14 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.container {
+.bi-search {
+  cursor: pointer;
+}
+
+.bi-bell {
+  cursor: pointer;
+}
+
+.dropdown-toggle::after {
   color: white;
 }

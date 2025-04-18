@@ -1,5 +1,12 @@
 @import "./partials/overridersBootstrap";
 
-.container {
+.bi-search {
+  cursor: pointer;
+}
+.bi-bell {
+  cursor: pointer;
+}
+
+.dropdown-toggle::after {
   color: white;
 }

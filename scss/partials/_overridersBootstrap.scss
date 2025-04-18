@@ -24,6 +24,12 @@ $colors: map-merge(
   )
 );
 
+@each $key, $value in $colors {
+  .#{$key} {
+    background-color: $value;
+  }
+}
+
 // COLOR BLUE
 
 $colors: map-merge(
@@ -103,15 +109,32 @@ $colors: map-merge(
 // COLOR NIKE
 
 $nikeColors: (
-  nikeBlack: #111111,
-  nikeWhite: #ffffff,
-  nikeVolt: #ceff00,
-  nikeHyperPink: #ff3161,
-  nikeBlue: #0046ad,
-  nikeUniversityRed: #ba0c2f,
-  nikeOrange: #f76300,
-  nikeGrey: #7e7e7e,
+  NikeBlack: #111111,
+  NikeWhite: #ffffff,
+  NikeVolt: #ceff00,
+  NikeHyperPink: #ff3161,
+  NikeBlue: #0046ad,
+  NikeUniversityRed: #ba0c2f,
+  NikeOrange: #f76300,
+  NikeGrey: #7e7e7e,
 );
+
+$netflixColor: (
+  BlackDark: #141414,
+  RedNetflix: #db0000,
+  WhiteNetflix: #fff,
+  GreyNetflix: #564d4d,
+  DarkRed: #831010,
+);
+
+@each $key, $value in $netflixColor {
+  .bg#{$key} {
+    background-color: $value;
+  }
+  .text#{$key} {
+    color: $value !important;
+  }
+}
 
 $colors: map-merge($colors, $nikeColors);
 // COLOR ROSE
@@ -199,23 +222,35 @@ $padding-sizes: $paddingCustom;
 // MARGIN
 
 $margin-custom: (
-  margin1: 1rem,
-  margin2: 1.5rem,
-  margin3: 2rem,
-  margin4: 2.5rem,
-  margin5: 3rem,
-  margin6: 3.5rem,
-  margin7: 4rem,
-  margin8: 4.5rem,
-  margin9: 5rem,
-  margin10: 5.5rem,
+  1: 1rem,
+  2: 1.5rem,
+  3: 2rem,
+  4: 2.5rem,
+  5: 3rem,
+  6: 3.5rem,
+  7: 4rem,
+  8: 4.5rem,
+  9: 5rem,
+  10: 5.5rem,
 );
 
 $margin-sizes: $margin-custom;
 
 @each $key, $value in $margin-sizes {
-  .#{$key} {
+  .margin#{$key} {
     margin: $value;
+  }
+  .margin#{$key}Left {
+    margin-left: $value;
+  }
+  .margin#{$key}Right {
+    margin-right: $value;
+  }
+  .margin#{$key}Top {
+    margin-top: $value;
+  }
+  .margin#{$key}Bottom {
+    margin-bottom: $value;
   }
 }
 
