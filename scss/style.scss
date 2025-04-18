@@ -14,3 +14,24 @@
 .navbar-toggler {
   background-color: white;
 }
+
+.dropdown {
+  button {
+    background-color: black;
+  }
+}
+
+.containerBorder {
+  border: 1px solid gray;
+  padding: 10px 20px;
+
+  .bi-grid {
+    color: white;
+    cursor: pointer;
+  }
+
+  .bi-filter-left {
+    color: white;
+    cursor: pointer;
+  }
+}

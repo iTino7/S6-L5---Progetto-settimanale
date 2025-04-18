@@ -12477,3 +12477,20 @@ textarea.form-control-lg {
 .navbar-toggler {
   background-color: white;
 }
+
+.dropdown button {
+  background-color: black;
+}
+
+.containerBorder {
+  border: 1px solid gray;
+  padding: 10px 20px;
+}
+.containerBorder .bi-grid {
+  color: white;
+  cursor: pointer;
+}
+.containerBorder .bi-filter-left {
+  color: white;
+  cursor: pointer;
+}

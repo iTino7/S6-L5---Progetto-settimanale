@@ -53,24 +53,13 @@
                 <a class="textWhiteNetflix nav-link" href="#">My list</a>
               </li>
             </ul>
-            <!-- <form class="d-flex" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-success" type="submit">
-                Search
-              </button>
-            </form> -->
             <div class="ms-auto textWhiteNetflix d-flex align-items-center">
               <div class="iconSearch margin1Right">
                 <i class="bi bi-search"></i>
               </div>
               <h3 class="fontSize5 margin1Right mb-0" margin2>KIDS</h3>
               <div class="iconBells margin2Right">
-                <i class="bi bi-bell"></i>
+                <i class="bi bi-bell" id="iconHover"></i>
               </div>
               <div class="dropdown text-end margin2Right">
                 <a
@@ -104,6 +93,50 @@
       </nav>
     </div>
 
+    <!-- TV SHOW -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid justify-content-start">
+        <h1 class="fontSize1 textWhiteNetflix">TV Shows</h1>
+        <!-- DROPDOWNS -->
+        <div class="dropdown">
+          <button
+            class="btn btn-secondary dropdown-toggle ms-3"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Genres
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Adventure</a></li>
+            <li><a class="dropdown-item" href="#">Comedy</a></li>
+            <li><a class="dropdown-item" href="#">Drama</a></li>
+            <li><a class="dropdown-item" href="#">Fantasy</a></li>
+          </ul>
+        </div>
+
+        <!-- TV-SHOW-RIGHT -->
+        <div class="ms-auto stats d-flex me-4">
+          <div class="containerBorder">
+            <i class="bi bi-filter-left"></i>
+          </div>
+          <div class="containerBorder">
+            <i class="bi bi-grid"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+
     <script src="./bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      const icon = document.getElementById("iconHover");
+      icon.addEventListener("mouseenter", () => {
+        icon.classList.replace("bi-bell", "bi-bell-fill");
+      });
+      icon.addEventListener("mouseleave", () => {
+        icon.classList.replace("bi-bell-fill", "bi-bell");
+      });
+    </script>
   </body>
 </html>
