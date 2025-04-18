@@ -12470,6 +12470,13 @@ textarea.form-control-lg {
   cursor: pointer;
 }
 
+@media screen and (max-width: 992px) {
+  .borderCustom {
+    border-top: 1px solid rgba(128, 128, 128, 0.381);
+    padding: 8px 0;
+  }
+}
+
 .nav-item a span:hover {
   color: #fff;
   transition: 1s;
@@ -12499,4 +12506,9 @@ textarea.form-control-lg {
 .containerBorder .bi-filter-left {
   color: white;
   cursor: pointer;
+}
+
+footer .row .col-3 p {
+  font-size: 12px;
+  color: gray;
 }
